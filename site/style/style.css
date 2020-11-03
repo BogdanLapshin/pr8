@@ -1,0 +1,168 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    font-family: arial;
+}
+
+.all {
+    display: flex;
+    flex-direction: column;
+}
+
+.number {
+    line-height: 2;
+}
+
+h1>a {
+    font-family: "Arial Black";
+    color: #ffe011;
+    font-weight: bold;
+}
+
+h1>span {
+    color: white;
+    font-family: "Arial Black";
+    font-weight: bold;
+}
+
+.head {
+    background: linear-gradient(to bottom, #2f4ff3, #5338c7);
+    text-align: center;
+    margin: 0;
+    padding: 70px;
+    line-height: 1;
+    color: white;
+    font-size: 15pt;
+    margin: 0;
+}
+
+.block1 {
+    width: 60%;
+    display: flex;
+    text-align: left;
+    line-height: 1.5;
+    font-size: 16pt;
+    margin: 0;
+    float: bottom;
+    padding-left: 80px;
+    padding-top: 20px;
+    padding-bottom: 0;
+    align-items: flex-end;
+}
+
+.photo {
+    width: 40%;
+    height: 200px;
+    float: right;
+    margin: 0;
+}
+
+.line2 {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 3px solid black;
+}
+
+.photo {
+    display: flex;
+    justify-content: center;
+}
+
+.photo>img {
+    height: 100px
+}
+
+.line3 {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+
+.col1 {
+    width: 67%;
+    padding-left: 80px;
+    border-bottom: 3px solid black;
+    padding-bottom: 0;
+}
+
+.col1>p {
+    font-size: 16pt;
+    line-height: 0.1;
+}
+
+.col1>h3 {
+    line-height: 0.5;
+}
+
+ul {
+    font-size: 16pt;
+    line-height: 1.5;
+}
+
+li {
+    list-style-type: disc;
+    margin-bottom: 15px;
+}
+
+.column2>ul,
+.column2>li {
+    text-align: center;
+}
+
+.column2 {
+    border-left: 3px solid black;
+    width: 33%;
+    background: linear-gradient(to bottom, #2f4ff3, #5338c7);
+}
+
+.highlights,
+.eduhob {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 1%;
+}
+
+.highlights>h1,
+.education>h1,
+.hobbies>h1 {
+    font-family: "Arial Black";
+    color: #ffe011;
+    background-color: rgba(0, 0, 0, 0.514);
+    padding: 1% 0% 1% 0%;
+}
+
+.col1>h1 {
+    font-family: "Arial Black";
+    color: #ffe011;
+}
+
+.divspiska {
+    display: flex;
+    justify-content: center;
+}
+
+.spisok>ul {
+    line-height: 0.8;
+}
+
+.education>p,
+.hobbies>p {
+    font-size: 16pt;
+}
+
+.divspiska {
+    border-bottom: 3px solid black;
+}
+
+.logo {
+    height: 20px;
+}
+
+.education,
+.hobbies {
+    border-bottom: 3px solid black;
+    padding-bottom: 5%;
+}
