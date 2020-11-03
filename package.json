@@ -1,12 +1,13 @@
 {
-  "name": "Practice8",
+  "name": "pgs",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {"start": "node index.js",
-  "test": "echo \"Error: no test specified\" && exit 1"
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "engines": {
+    "engines": {
     "node": "12.19.0"
   },
   "author": "",
